@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* border: 2px solid red; */
+  margin: 0 3rem;
+  background-color: #f5f5f5;
+}
+
+/* common css */
+
+button {
+  color: #006a50;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid #006a50;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgb(7, 2, 134) !important;
+  color: white !important;
+}
+
+/* #nation-pillars > h2,
+#vision-of-bd-section > h2, .opinion-section h2 */
+
+section > h2{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* 1. Navigation css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* 2. header banner css */
+
+header .banner {
+  background-color: #c6e4d6;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+header .banner h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* 3. nation-pillars and visions section css */
+
+#nation-pillars {
+  margin: 5rem 0;
+}
+
+.nation-pillars-conainer,
+.visions-conainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.nation-pillars-conainer > div,
+.visions-conainer > div {
+  background-color: white;
+  height: 230px;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px #000d112b;
+}
+
+#nation-pillars h5,
+#vision-of-bd-section h5 {
+  font-size: 1.3rem;
+  margin: 0.7rem 0;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+#nation-pillars > div > div p {
+  color: #0e0e0e;
+}
+
+#vision-of-bd-section {
+  margin: 2rem 0;
+}
+
+#vision-of-bd-section button {
+  margin-top: 1rem;
+}
+
+.visions-conainer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.visions-conainer > div button {
+  width: 50%;
+}
+
+/* chief-advise-section css */
+
+#chief-adviser-section {
+  background-color: white;
+  border: 2px solid rgba(148, 133, 133, 0.231);
+  border-radius: 7px;
+  padding: 2rem;
+  margin: 2rem 0px 3rem;
+}
+
+#chief-adviser-section > p {
+  font-size: 1.2rem;
+}
+#chief-adviser-section h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0 0.3rem;
+}
+
+.quoted-text-container {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+}
+
+/* user Opinion section */
+
+.opinion-section{
+
+    margin-bottom: 40px;
+}
+.opinion-section h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.opinion-table {
+  padding: 1.5rem;
+  border-radius: 7px;
+  border-radius: 5px;
+  background-color: white;
+}
+.opinion-table table {
+  width: 100%;
+   border-collapse: collapse;
+  border: 1px solid #ccc; /* add this line */
+}
+
+.opinion-table th,
+.opinion-table td {
+  border: 2px solid #ccc; /* add this */
+}
+
+
+.opinion-table th {
+  text-align: left;
+  background-color: #cde4cf;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.opinion-table td {
+  padding: 14px;
+  font-size: 17px;
+}
+
+.opinion-table select {
+  background-color: #dff0e1;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.opinion-table select:hover {
+  background-color: #c8e8ca;
+}
+
+/* Recent News section css */
+
