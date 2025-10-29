@@ -36,6 +36,12 @@ section > h2, #recent-news-section > div h2{
   margin-bottom: 1rem;
 }
 
+p {
+
+  font-family: "Fira Sans", sans-serif;
+   
+}
+
          /* ========= Main part started ======= */
 
 /* 1. Navigation css */
@@ -257,4 +263,59 @@ header .banner h2 {
      padding: 1rem 0;
      font-size: 1.2rem;
      margin: 1rem 0;
+}
+
+/* subscribe-newsletter-section section css */
+#subscribe-newsletter-section {
+
+     height: 300px;
+     background-color: #00ff334e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 1.2rem;
+}
+
+#subscribe-newsletter-section > p:first-of-type{
+
+     width: 70%;
+}
+
+#subscribe-newsletter-section div{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    
+}
+
+.subscribe-form input, button{
+
+    height: 40px;
+    border: none;
+}
+
+.subscribe-form input {
+
+     width: 400px;
+     padding: 0 1rem;
+      border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.subscribe-form input:focus{
+
+     outline: none;
+}
+.subscribe-form button{
+
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: red;
+    color: white;
 }
