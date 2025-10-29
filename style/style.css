@@ -21,7 +21,7 @@ button {
   font-weight: 700;
 }
 
-button:hover {
+button:hover, #donations-container p:hover {
   background-color: rgb(7, 2, 134) !important;
   color: white !important;
 }
@@ -29,12 +29,14 @@ button:hover {
 /* #nation-pillars > h2,
 #vision-of-bd-section > h2, .opinion-section h2 */
 
-section > h2{
+section > h2, #recent-news-section > div h2{
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+
+         /* ========= Main part started ======= */
 
 /* 1. Navigation css */
 nav {
@@ -199,3 +201,60 @@ header .banner h2 {
 
 /* Recent News section css */
 
+#recent-news-section > div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: white;
+    margin: 2rem 0;
+}
+
+#recent-news-section > div > img{
+
+     border-radius: 15px;
+}
+
+#recent-news-section > div p {
+
+     font-size: 1.2rem;
+     margin: 1rem 0;
+}
+
+/* Donation part css */
+
+#donation-section{
+
+   text-align: center;
+   margin: 4rem 0;
+}
+#donations-container {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     margin: 1rem 0;
+}
+#donations-container p {
+
+     background-color: white;
+     border: 2px solid #eee4e4d7;
+     padding : 2rem;
+     border-radius: 10px;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+#donation-section > p:last-of-type{
+
+        background-color: white;
+     border: 2px solid #eee4e4d7;
+     text-align: center;
+     padding: 1rem 0;
+     font-size: 1.2rem;
+     margin: 1rem 0;
+}
